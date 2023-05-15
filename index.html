@@ -3,27 +3,40 @@
     <head> 
         </head><link href="style.css" rel="stylesheet">
         <title>Apple</title>
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
 
     </head>
 
 <body>
-  <!-- Logo -->
-  <div class="logo">
+  <!-- Logo 
+  
     <img src="img/logo.jpg" class="logo">
-  </div>
-<div class="container mx-auto">
-
+  </div>-->
+<div class="container">
   <!-- Header -->
     <header>
-      <nav class="flex justify-center space-x-4">
+      <nav>
+        <button onclick="window.location.href='html/products.html';">Products</button>
+        <button onclick="window.location.href='html/entertainment.html';">Entertainment</button>
+        <button onclick="window.location.href='html/services.html';">Services</button>
+        <div class="logo">
+          <img src="img/logo.jpg" class="logo">
+        </div>
+      </nav>
+    </header>
+
+    <!-- Video -->
+      <div class="video">
+        <video controls src="video/iPhone14.mp4">
+        </video>
+      </div>
+      <!-- <nav class="flex justify-center space-x-4">
         <a href="html/products.html" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Products</a>
         <a href="html/entertainment.html" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Entertainment</a>
         <a href="html/services.html" class="font-bold px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><p>Services</p></a>
-        
-      </nav>
+      </nav> 
     </header>
-    <!-- Titre -->
+    Titre 
     <div class="bg-white py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
@@ -40,7 +53,7 @@
     
   </div>
 </div>
-<!-- Footer -->
+Footer
 <div  class="footer" >
   <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
       <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
@@ -55,6 +68,6 @@
           </li>
       </ul>
       </div>
-  </footer>
+  </footer> -->
 </body>
 </html>
