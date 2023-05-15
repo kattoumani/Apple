@@ -36,10 +36,10 @@ footer {
 }
 
 .logo {
-    width: 15%;
+    width: 20%;
     float: right;
     margin-top: 2px;
-    margin-right: 5px;
+    margin-right: 0px;
 } 
 
 .footer {
@@ -50,8 +50,8 @@ footer {
 }
 
 .video {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -64,10 +64,6 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #e5e7eb;
-    display: flex;
-    justify-content: space-between;
-    display: inline-block;
     
 }
 
@@ -87,4 +83,15 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav button {
+    border-radius: 10%;
+    background-color: #D0E1F0;
 }
